@@ -9,3 +9,11 @@ Medium article link: https://towardsaws.com/implementing-a-file-storage-service-
 
 Architecture
 ![Alt text](architecture-api-gateway.gif)
+
+provide values to the following variables to when running terraform plan/apply:
+aws_region = ""
+aws_account_id = ""
+user_bucket = ""
+lambda_function_name = ""
+lambda_runtime = "python3.8"
+webapp_bucket = ""
